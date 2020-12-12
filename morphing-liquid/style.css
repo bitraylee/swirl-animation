@@ -1,0 +1,24 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
+
+#container {
+  z-index: 10;
+  filter: grayscale(100%) contrast(90%);
+}
+.blend-mode {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #12f29b;
+  mix-blend-mode: color;
+
+  z-index: 1000;
+}
