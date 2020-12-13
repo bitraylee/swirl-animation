@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  background: #111;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.header h1 {
+  color: #fefefe;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.header h1 span {
+  display: inline-block;
+}
+.header:hover {
+  color: #eeeeee;
+}
